@@ -23,6 +23,11 @@ object StringUtils {
         return capMatcher.appendTail(capBuffer).toString()
     }
 
+    /**
+     * This method is used to check String is empty or not
+     * @param data
+     */
+
     fun isEmpty(data: String?): Boolean {
         return data == null || data.trim { it <= ' ' }.isEmpty()
     }
