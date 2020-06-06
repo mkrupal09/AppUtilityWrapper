@@ -5,7 +5,7 @@ import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.util.*
 
-object DateUtils {
+object DateTimeUtils {
 
     /**
      * This method is used to get the date string of one format from

@@ -16,7 +16,7 @@ object ValidationUtils {
      * This method is used to check mobileNumber is valid or not
      * @param mobileNumber
      */
-    fun isValidPhoneNumberString(mobileNumber: String?): Boolean {
+    fun isValidPhoneNumber(mobileNumber: String?): Boolean {
         return mobileNumber != null && mobileNumber.length >= 7 &&
                 mobileNumber.matches("\\d*".toRegex())
     }
